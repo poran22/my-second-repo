@@ -12,14 +12,45 @@
             height: 200px;
             border: 2px solid chocolate;
             background-color: coral;
-            transition: width 5s;
+            transition: width 1s, hegiht 1s, transform 1s;
+        }
+
+        .box:hover {
+            width: 400px;
+            height: 400px;
+            transform: rotate(180deg);
+        }
+
+        .one-stop {
+            padding-left: 50px;
+        }
+
+        .one-stop {
+            display: flex;
+        }
+
+        .box {
+            margin: 20px;
+        }
+
+        .dhaka {
+            margin: 20%;
         }
     </style>
 </head>
 
 <body>
-
+    <section class="one-stop">
+        <div class="box">
+            <h3 class="dhaka">Dhaka asbo</h3>
+        </div>
+        <div class="box">
+            <h3 class="dhaka">Dhaka asbo</h3>
+        </div>
+        <div class="box">
+            <h3 class="dhaka">Dhaka asbo</h3>
+        </div>
+    </section>
 </body>
-<div class="box"></div>
 
 </html>
