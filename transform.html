@@ -6,9 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container,
+        .inner {
+            background-color: navy;
+            width: 150px;
+            height: 150px;
+            border: 2px solid khaki;
+        }
+
+        .display {
+            display: flex;
+        }
+
+        .inner {
+            background-color: olive;
+            transform: rotate(30deg)
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Transformer Im Comming</h1>
+    <section class="display">
+        <div class="box container">
+            <div class="inner">box-1</div>
+        </div>
+        <div class="box container">
+            <div class="inner">box-2</div>
+        </div>
+        <div class="box container">
+            <div class="inner">box-3</div>
+        </div>
+    </section>
 
 </body>
 
