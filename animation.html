@@ -8,15 +8,21 @@
     <title>Document</title>
     <style>
         @keyframes sliding {
-            from {
+            0% {
                 background-color: limegreen;
                 left: 0;
+                top: 0;
 
             }
 
-            to {
+            50% {
+                top: 200px;
+            }
+
+            100% {
                 background-color: magenta;
                 left: 400px;
+                top: 0;
             }
         }
 
