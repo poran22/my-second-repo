@@ -6,10 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Ausem Calender</title>
+    <style>
+        .calender {
+            height: 500px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 1em;
+            font-size: 3em;
+        }
+
+        .date,
+        .day {
+            background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .other-month {
+            background-color: lightgray;
+        }
+    </style>
 </head>
 
 <body>
     <div class="calender">
+        <div class="day">SUN</div>
+        <div class="day">MON</div>
+        <div class="day">TUE</div>
+        <div class="day">WED</div>
+        <div class="day">THU</div>
+        <div class="day">FRI</div>
+        <div class="day">SAT</div>
+        <div class="date other-month">30</div>
+        <div class="date other-month">31</div>
         <div class="date">1</div>
         <div class="date">2</div>
         <div class="date">3</div>
@@ -40,11 +71,9 @@
         <div class="date">28</div>
         <div class="date">29</div>
         <div class="date">30</div>
-        <div class="date">31</div>
-        <div class="date">32</div>
-        <div class="date">33</div>
-        <div class="date">34</div>
-        <div class="date">35</div>
+        <div class="date other-month">01</div>
+        <div class="date other-month">02</div>
+        <div class="date other-month">03</div>
     </div>
 </body>
 
